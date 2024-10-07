@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "982A06B0-3F63-4DCE-B19A-5BC8C224B5D6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Streakly.xcodeproj",
+      "identifier" : "055E895A2CB4465C00CD861C",
+      "name" : "Streakly"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Streakly.xcodeproj",
+        "identifier" : "055E89702CB4466000CD861C",
+        "name" : "StreaklyTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Streakly.xcodeproj",
+        "identifier" : "055E897A2CB4466000CD861C",
+        "name" : "StreaklyUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

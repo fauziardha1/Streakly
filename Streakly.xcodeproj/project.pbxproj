@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		055E895F2CB4465C00CD861C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E895E2CB4465C00CD861C /* AppDelegate.swift */; };
-		055E89612CB4465C00CD861C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E89602CB4465C00CD861C /* SceneDelegate.swift */; };
 		055E89632CB4465C00CD861C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E89622CB4465C00CD861C /* ViewController.swift */; };
-		055E89662CB4465C00CD861C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 055E89652CB4465C00CD861C /* Base */; };
 		055E89682CB4465F00CD861C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055E89672CB4465F00CD861C /* Assets.xcassets */; };
 		055E896B2CB4465F00CD861C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 055E896A2CB4465F00CD861C /* Base */; };
 		055E89762CB4466000CD861C /* StreaklyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E89752CB4466000CD861C /* StreaklyTests.swift */; };
@@ -38,9 +36,7 @@
 /* Begin PBXFileReference section */
 		055E895B2CB4465C00CD861C /* Streakly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streakly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		055E895E2CB4465C00CD861C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		055E89602CB4465C00CD861C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		055E89622CB4465C00CD861C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		055E89652CB4465C00CD861C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		055E89672CB4465F00CD861C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055E896A2CB4465F00CD861C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		055E896C2CB4465F00CD861C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +45,7 @@
 		055E897B2CB4466000CD861C /* StreaklyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreaklyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		055E897F2CB4466000CD861C /* StreaklyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreaklyUITests.swift; sourceTree = "<group>"; };
 		055E89812CB4466000CD861C /* StreaklyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreaklyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		055E898E2CB4467600CD861C /* Streakly.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Streakly.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +79,7 @@
 				055E895D2CB4465C00CD861C /* Streakly */,
 				055E89742CB4466000CD861C /* StreaklyTests */,
 				055E897E2CB4466000CD861C /* StreaklyUITests */,
+				055E898E2CB4467600CD861C /* Streakly.xctestplan */,
 				055E895C2CB4465C00CD861C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,9 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				055E895E2CB4465C00CD861C /* AppDelegate.swift */,
-				055E89602CB4465C00CD861C /* SceneDelegate.swift */,
 				055E89622CB4465C00CD861C /* ViewController.swift */,
-				055E89642CB4465C00CD861C /* Main.storyboard */,
 				055E89672CB4465F00CD861C /* Assets.xcassets */,
 				055E89692CB4465F00CD861C /* LaunchScreen.storyboard */,
 				055E896C2CB4465F00CD861C /* Info.plist */,
@@ -233,7 +229,6 @@
 			files = (
 				055E89682CB4465F00CD861C /* Assets.xcassets in Resources */,
 				055E896B2CB4465F00CD861C /* Base in Resources */,
-				055E89662CB4465C00CD861C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +255,6 @@
 			files = (
 				055E89632CB4465C00CD861C /* ViewController.swift in Sources */,
 				055E895F2CB4465C00CD861C /* AppDelegate.swift in Sources */,
-				055E89612CB4465C00CD861C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +291,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		055E89642CB4465C00CD861C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				055E89652CB4465C00CD861C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		055E89692CB4465F00CD861C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,9 +433,9 @@
 				INFOPLIST_FILE = Streakly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,9 +461,9 @@
 				INFOPLIST_FILE = Streakly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,7 +486,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XLX6KD3AF8;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fauziarda.personal.StreaklyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,7 +506,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XLX6KD3AF8;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fauziarda.personal.StreaklyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
